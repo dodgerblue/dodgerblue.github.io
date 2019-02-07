@@ -68,6 +68,15 @@ search_full_content: false # can have performance implications for large sites
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs/
 
 plugins:
   - jekyll-seo-tag
@@ -80,6 +89,12 @@ defaults:
   # Posts defaults
   - scope:
       path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+  - scope:
+      path: "example"
       type: posts
     values:
       layout: post

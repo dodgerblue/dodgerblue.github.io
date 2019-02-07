@@ -219,6 +219,20 @@
   }
 }
 
+.layout-wrapper--home,
+.layout-wrapper--posts,
+.layout-wrapper--categories,
+.layout-wrapper--tags,
+.layout-wrapper--category,
+.layout-wrapper--tag,
+.layout-wrapper--collection,
+.layout-wrapper--search {
+  max-width: $main-max-width;
+  margin: 0 auto;
+  background-color: $background-color;
+  border-radius: (2 * $border-radius) (2 * $border-radius) (2 * $border-radius) (2 * $border-radius);
+}
+
 .layout--post {
   .page-wrapper {
     @include breakpoint($large) {
