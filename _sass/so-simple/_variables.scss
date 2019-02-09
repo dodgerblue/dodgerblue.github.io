@@ -17,7 +17,7 @@ $max-font-size: 18px !default;
 
 /* Calculate Modular Scale */
 $modular-scale-1: 1.067 !default; /* small */
-$modular-scale-2: 1.2 !default; /* large */
+$modular-scale-2: 1.4 !default; /* large */
 /* Heading 1 */
 $h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
 $h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
@@ -44,6 +44,7 @@ $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospa
 
 $base-font-family: $sans-serif-font-family !default;
 $headline-font-family: $sans-serif-font-family !default;
+$site-title-font-family: $serif-font-family !default;
 $title-font-family: $serif-font-family !default;
 $description-font-family: $serif-font-family !default;
 $meta-font-family: $serif-font-family !default;
@@ -52,25 +53,28 @@ $page-title-weight: bold !default;
 $entry-title-weight: bold !default;
 
 /* Colors */
-$base-color: #000 !default;
-$text-color: #000 !default;
-$accent-color: #34374C !default;
-$nav-color: #fff !default;
+$black-color: #000 !default;
+$white-color: #fff !default;
 $dodger-color: #1e90ff !default;
-$background-color: #fff !default;
-$nav-background-color: #1e90ff !default;
+
+$base-color: $black-color !default;
+$text-color: $black-color !default;
+$accent-color: #34374C !default;
+$nav-color: $white-color !default;
+$background-color: $white-color !default;
+$nav-background-color: $black-color !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
-$primary-color: #000 !default;
+$primary-color: $black-color !default;
 $success-color: #62c462 !default;
 $warning-color: #f89406 !default;
 $danger-color: #ee5f5b !default;
 $info-color: #52adc8 !default;
 
 /* YIQ color contrast */
-$yiq-contrasted-dark-default: #000 !default;
-$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-dark-default: $black-color !default;
+$yiq-contrasted-light-default: $white-color !default;
 $yiq-contrasted-threshold: 175 !default;
 $yiq-debug: false !default;
 

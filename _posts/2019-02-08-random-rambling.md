@@ -2,6 +2,8 @@
 title: "Pretty much a game too early, innit?"
 hidden: true
 last_modified_at:
+author:
+read_time: true
 ---
 
 I don't even care that hidden posts appear in the page, at this point. Probably something else that needs to be configured and I haven't. But that's not the main point.

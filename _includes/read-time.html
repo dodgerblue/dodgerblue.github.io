@@ -3,14 +3,18 @@
 
 {% if entry %}
   {% assign words = entry.content | strip_html | number_of_words %}
+  {% assign show_read_time = entry.read_time | default: false %}
 {% else %}
   {% assign words = page.content | strip_html | number_of_words %}
+  {% assign show_read_time = page.read_time | default: false %}
 {% endif %}
 
-<span class="read-time">
-  {%- if words < words_per_minute -%}
-    ~1 {{ min_read }}
-  {%- else -%}
-    {{ words | divided_by:words_per_minute }} {{ min_read }}
-  {%- endif -%}
-</span>
+{% if show_read_time %}
+  <span class="read-time">
+    {%- if words < words_per_minute -%}
+      ~1 {{ min_read }}
+    {%- else -%}
+      {{ words | divided_by:words_per_minute }} {{ min_read }}
+    {%- endif -%}
+  </span>
+{% endif %}

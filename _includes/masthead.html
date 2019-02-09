@@ -1,3 +1,23 @@
+{% assign display_probability = 10 %}
+{% assign cur_time = 'now' | date: "%L%6%9%H%M%S" %}
+{% assign random = cur_time | modulo: 100 %}
+{% if site.data.boldomatic.size > 0 %}
+  {% assign index = random | minus: display_probability | modulo: site.data.boldomatic.size %}
+{% else %}
+  {% assign index = 0 %}
+{% endif %}
+
+{% if display_probability > random %}
+  {% assign description = site.description %}
+  {% assign display_link = false %}
+{% elsif site.data.boldomtic.size == 0 %}
+  {% assign description = site.description %}
+  {% assign display_link = false %}
+{% else %}
+  {% assign description = site.data.boldomatic[index] %}
+  {% assign display_link = true %}
+{% endif %}
+
 <header class="masthead">
   <div class="wrap">
     {% if site.logo %}
@@ -8,11 +28,15 @@
     {% assign page_image = page.image.path | default: page.image %}
     {% unless page_image %}
       {% if page.url == '/' %}
-        <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       {% else %}
-        <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+        <div class="site-title "><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
       {% endif %}
-      <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
+      {% if display_link %}
+        <p class="site-description " itemprop="description"><a href={{ description.url }} target="_blank">{{ description.title }}</a></p>
+      {% else %}
+        <p class="site-description " itemprop="description">{{ description }}</p>
+      {% endif %}
     {% endunless %}
   </div>
 </header><!-- /.masthead -->

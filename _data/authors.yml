@@ -1,6 +1,11 @@
 # Sample Authors
 # Remove file or replace with your own
 
+bogdan:
+  name: "Bogdan Purcăreață"
+  picture: /images/ID_prof_small.jpg
+  email: "bogdan.purcareata@gmail.com"
+
 Billy Rick:
   name: Billy Rick
   picture: /images/bio-photo-2.jpg
