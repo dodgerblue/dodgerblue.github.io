@@ -5,6 +5,28 @@ bogdan:
   name: "Bogdan Purcăreață"
   picture: /images/ID_prof_small.jpg
   email: "bogdan.purcareata@gmail.com"
+  links:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/bogdan-purcareata/
+      icon: fab fa-linkedin
+    - title: Facebook
+      url: https://www.facebook.com/bogdan.purcareata
+      icon: fab fa-facebook
+    - title: Instagram
+      url: https://www.instagram.com/bogdan_purcareata/
+      icon: fab fa-instagram
+    - title: Goodreads
+      url: https://www.goodreads.com/user/show/15845134-bogdan-purcareata
+      icon: fab fa-goodreads
+    - title: GitHub
+      url: https://github.com/dodgerblue
+      icon: fab fa-github-square
+    - title: IMDb
+      url: https://www.imdb.com/user/ur57980717/
+      icon: fab fa-imdb
+    - title: last.fm
+      url: https://www.last.fm/user/dodgerbloo
+      icon: fab fa-lastfm-square
 
 Billy Rick:
   name: Billy Rick

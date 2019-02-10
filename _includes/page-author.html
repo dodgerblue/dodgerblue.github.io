@@ -31,7 +31,7 @@
           {%- endif -%}
           {% if url.size > 0 %}
             <li class="author-link">
-              <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i></a>
+              <a class="u-url" rel="me" href="{{ url }}" target="_blank"><i class="{{ link.icon | default : 'fas fa-link' }} fa-2x" title="{{ link.title }}"></i></a>
             </li>
           {% endif %}
         {%- endfor -%}

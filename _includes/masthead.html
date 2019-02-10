@@ -1,4 +1,4 @@
-{% assign display_probability = 10 %}
+{% assign display_probability = 33 %}
 {% assign cur_time = 'now' | date: "%L%6%9%H%M%S" %}
 {% assign random = cur_time | modulo: 100 %}
 {% if site.data.boldomatic.size > 0 %}
@@ -7,7 +7,7 @@
   {% assign index = 0 %}
 {% endif %}
 
-{% if display_probability > random %}
+{% if random > display_probability %}
   {% assign description = site.description %}
   {% assign display_link = false %}
 {% elsif site.data.boldomtic.size == 0 %}

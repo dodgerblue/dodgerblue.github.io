@@ -1,6 +1,6 @@
 ---
 title: "Pretty much a game too early, innit?"
-hidden: true
+published: false
 last_modified_at:
 author:
 read_time: true
