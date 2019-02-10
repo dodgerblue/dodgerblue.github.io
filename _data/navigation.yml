@@ -4,6 +4,8 @@
 #   url: /
 # - title: Posts
 #   url: /posts/
+- title: Upstream
+  url: /upstream/
 - title: About
   url: /about/
 # - title: Categories
