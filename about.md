@@ -2,14 +2,15 @@
 layout: post
 title: "What this is"
 author: bogdan
+redirect_from: "/"
 ---
 
 This aims to be a portfolio page, but it's more like a journal of all the sorta important things that are related to me. I'm **Bogdan**. Hi!
 
-I'm not going to use my actual name much since this person here (hopefully) is somewhat someone else. I chose **dodgerblue** because I really like the colour. Plus, people don't usually choose colours as their online usernames, so it stuck. I'm no fan of baseball or the L.A. Dodgers, it's unrelated to that. My initial reference of the word is from a _Red Hot Chilli Peppers_ song, _**Cabron**_, which I loved greatly as a kid. In the song, I am assuming there was the intent of L.A. Dodgers cheery hollers, but to me the significance is purely personal wrt. the word / the song / alternative rock / whom I was back then.
+I'm not going to use my actual name much since this person here (hopefully) is somewhat someone else. I chose **dodgerblue** because I really like the colour. Plus, people don't usually choose colours as their online usernames, so it stuck. I'm no fan of baseball or the L.A. Dodgers, it's unrelated to that. My initial reference of the word is from a _Red Hot Chilli Peppers_ song, _**Cabron**_, which I loved greatly as a kid. In the song, I am assuming there was the intent of L.A. Dodgers cheery hollers, but to me the significance is purely personal wrt. the word / the song / alternative rock / who I was back then.
 
-The page is mostly a dump of various **"things"** that are not really journaled, and I forget about them. Some of them are public. There's just no way they're put together, all in one place. All the **me**s. I will mention them as I link them.
-* In the [Reviews](/reviews) section you can find a list of my read books and reviews.
+The page is mostly a dump of various **"things"** that are not really journaled, and I forget about them. Some of them are public. There's just no way they're put together in one place. All the **me**s. I will mention them as I link them.
+* In the [Reviews](/reviews) section you can find out what I'm reading.
 * [Upstream](/upstream) is a list of my contributions to open-source projects.
 * The site description sometime uses a [Boldomatic](http://boldomatic.com/) quote that speaks to me.
 

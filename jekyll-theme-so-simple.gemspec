@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-gist", "~> 1.4"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9.2"
   spec.add_runtime_dependency "jekyll-data", "~> 1.0"
+  spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.14.0"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.4"
   spec.add_runtime_dependency "jemoji", "~> 0.8"
 

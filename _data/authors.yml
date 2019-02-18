@@ -24,6 +24,9 @@ bogdan:
     - title: IMDb
       url: https://www.imdb.com/user/ur57980717/
       icon: fab fa-imdb
+    - title: E-mail
+      url: mailto:bogdan_purcareata@yahoo.com
+      icon: far fa-envelope
     - title: last.fm
       url: https://www.last.fm/user/dodgerbloo
       icon: fab fa-lastfm-square
