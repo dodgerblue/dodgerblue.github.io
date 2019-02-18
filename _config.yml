@@ -77,11 +77,12 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - docs/
+  - example/
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
 
 # Front Matter Defaults
@@ -112,7 +113,7 @@ author:
       icon:
 
 # Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+# footer_links:
+#   - title: Feed
+#     url: atom.xml
+#     icon: fas fa-rss-square
