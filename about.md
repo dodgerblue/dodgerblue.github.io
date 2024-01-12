@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "What this is"
+title: "I'm **Bogdan**. Hi!"
 author: bogdan
 redirect_from: "/"
 ---
- I'm **Bogdan**. Hi!
-
-This aims to be a portfolio page, but can grow up to a personal index.
+This aims to be a portfolio page, but will likely grow to a personal index.
 
 Professional:
 * Software Engineering
