@@ -95,6 +95,7 @@
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
   font-family: $site-title-font-family;
   font-weight: 700;
+  font-size: 30px;
 
   a {
     -webkit-text-stroke: 1.5px $text-color;
