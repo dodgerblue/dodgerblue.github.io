@@ -4,8 +4,6 @@ title: "I'm **Bogdan**. Hi!"
 author: bogdan
 redirect_from: "/"
 ---
-This aims to be a portfolio page, but will likely grow to a personal index.
-
 * Software Engineering
     * [Upstream](/upstream) is a list of my contributions to open-source projects.
 * Personal:
