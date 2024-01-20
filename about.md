@@ -11,6 +11,7 @@ This aims to be a portfolio page, but will likely grow to a personal index.
 * Personal:
     * [Book Reviews](/reviews).
     * The site description sometime uses a [Boldomatic](http://boldomatic.com/) quote that speaks to me.
+    * Adoptive parent of [Vasile](https://github.com/dodgerblue/vasile) - international audio voice assistant.
 
 <!---
 TODO:
