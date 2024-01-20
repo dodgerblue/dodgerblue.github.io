@@ -95,7 +95,6 @@
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
   font-family: $site-title-font-family;
   font-weight: 700;
-  font-size: 30px;
 
   a {
     -webkit-text-stroke: 1.5px $text-color;
@@ -274,7 +273,7 @@
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
       color: mix(#000, $border-color, 25%);
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
       line-height: 1.5;
       text-align: center;
